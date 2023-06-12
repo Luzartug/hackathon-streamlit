@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import numpy as np
 
 st.title("A Simple Streamlit Web App")
 name = st.text_input("Enter your name", "")
